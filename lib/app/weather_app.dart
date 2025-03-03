@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../core/theme/theme.dart';
+import '../features/weather/weather_screen.dart';
 
 class WeatherApp extends StatelessWidget {
   const WeatherApp({super.key});
@@ -10,6 +11,7 @@ class WeatherApp extends StatelessWidget {
     return MaterialApp(
       title: 'Weather App',
       theme: theme,
+      home: WeatherScreen(),
     );
   }
 }
